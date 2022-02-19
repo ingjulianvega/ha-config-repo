@@ -1,7 +1,7 @@
 spring:
   datasource:
     username: person_service
-    password: {cipher}d721190fe2441a06cabe823c451cb283f5b0979f9fcb3032b9c93216d4d5e489
+    password: '{cipher}d721190fe2441a06cabe823c451cb283f5b0979f9fcb3032b9c93216d4d5e489'
     url: jdbc:mysql://localhost:3306/personservice?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
 
 # Enable logging for config troubleshooting
