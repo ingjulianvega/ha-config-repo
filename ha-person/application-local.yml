@@ -3,6 +3,10 @@ spring:
     username: person_service
     password: password
     url: jdbc:mysql://db:3306/personservice?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+  #Zipkin
+  zipkin:
+    enabled: true
+    baseUrl: http://zipkin
 
 # Enable logging for config troubleshooting
 logging:
