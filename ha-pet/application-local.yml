@@ -2,7 +2,7 @@ spring:
   datasource:
     username: pet_service
     password: password
-    url: jdbc:mysql://localhost:3306/petservice?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://db:3306/petservice?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
 
 # Enable logging for config troubleshooting
 logging:
