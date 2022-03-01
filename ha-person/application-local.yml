@@ -7,7 +7,6 @@ spring:
   zipkin:
     enabled: true
     baseUrl: http://zipkin:9411/
-
 # Enable logging for config troubleshooting
 logging:
   level:
